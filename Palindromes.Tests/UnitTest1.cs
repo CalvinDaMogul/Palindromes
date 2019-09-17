@@ -9,10 +9,16 @@ namespace Palindromes.Tests
         public void Test1()
         {
             //Arrange
+            var palindromes = "racecar";
+            var checkPalindrome = new CheckPalindrome();
 
             //Act
+            var result = checkPalindrome.CheckResult(palindromes);
+
 
             //Assert
+            Assert.True(result);
+
         }
     }
 }
