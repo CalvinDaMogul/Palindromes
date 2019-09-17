@@ -9,7 +9,7 @@ namespace Palindromes.Tests
         public void Test1()
         {
             //Arrange
-            var palindromes = "racecar";
+            var palindromes = "stars";
             var checkPalindrome = new CheckPalindrome();
 
 
@@ -19,8 +19,21 @@ namespace Palindromes.Tests
 
 
             //Assert
-            Assert.True(result);
+            Assert.False(result);
 
         }
+        [Fact]
+        public void Test2()
+        {
+            //Arrange
+            var palindromes2 = "O, a kak Uwakov lil vo kawu kakao!";
+            var checkPalindrome = new CheckPalindrome();
+
+            //Act
+
+
+            //Assert
+        }
+
     }
 }
