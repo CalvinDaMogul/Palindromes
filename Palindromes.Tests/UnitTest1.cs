@@ -9,7 +9,7 @@ namespace Palindromes.Tests
         public void Test1()
         {
             //Arrange
-            var palindromes = "civic";
+            var palindromes = "repaper";
             var checkPalindrome = new CheckPalindrome();
 
 
