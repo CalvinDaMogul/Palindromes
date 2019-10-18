@@ -9,7 +9,7 @@ namespace Palindromes.Tests
         public void Test1()
         {
             //Arrange
-            var palindromes = "Never Odd Or Even";
+            var palindromes = "Was It A Rat I Saw";
             var checkPalindrome = new CheckPalindrome();
 
 
