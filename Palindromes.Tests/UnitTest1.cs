@@ -26,7 +26,7 @@ namespace Palindromes.Tests
         public void Test2()
         {
             //Arrange
-            var palindromes2 = "O, a kak Uwakov lil vo kawu kakao!";
+            var palindromes2 = "Dammit, I'm Mad!";
             var checkPalindrome = new CheckPalindrome();
 
             //Act
